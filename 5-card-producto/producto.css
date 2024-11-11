@@ -1,0 +1,86 @@
+.body{
+      height: 2000px;
+      width: 100vw;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.cont-card{
+      
+      height: 60%;
+      width: 60%;
+      border: 2px solid black;
+      display: flex;
+      
+      
+}
+.cont-rojo{
+      height: 100%;
+      width: 40%;
+      border: 2px solid black;
+}
+.dibujo{
+      background-image: url(https://render.fineartamerica.com/images/rendered/default/poster/7.5/8/break/images/artworkimages/medium/1/stormtrooper-helmet-star-wars-art-red-studio-grafiikka.jpg);
+      height: 100%;
+      width: 100%;
+}
+.cont-nombre{
+      height: 20%;
+      width: 100%;
+      border: 2px solid black;
+      display: flex;
+      flex-direction: column;
+}
+.nombre{
+      font-size: 55px;
+}
+.cont-negro{
+      height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+
+}
+.cont-nav{
+      margin-top: 1%;
+}
+.boton1{
+      border: 2px solid red;
+      border-radius: 20px;
+      margin: 20px;
+}
+
+.not-descripcion{
+      font-size: 30px;
+}
+.cont-precio{
+
+}
+.not-precio{
+      font-size: 50px;
+      margin-top: 0;
+}
+.cont-boton{
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.not-boton{
+      font-size: 40px;
+      background-color: red;
+      color: white;
+      border-radius: 20px;
+}
+@media(max-width:768px){
+      .cont-nav{
+            display: flex;
+            flex-direction: column;
+      }
+}
+

@@ -1,0 +1,96 @@
+.body{
+      height: 800px;
+      width: 1600px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family:Open Sans ;
+}
+.cont-servicios{
+     
+      
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: bold;
+}
+.cont-p{
+      height: 50px;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: gray;
+}
+.cont-card{
+     
+      height: 600px;
+      width: 1600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      align-items: center;
+      
+}
+.section1{
+   
+      display: flex;
+      justify-content: space-between;
+      height: 300px;
+      width: 1000px;
+      align-items: center;
+
+
+}
+.not-card{
+      
+      height: 200px;
+      width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items:start;
+      justify-content: center;
+      
+      
+}
+.pgris{
+      color: gray;
+}
+.pnegra{
+      font-weight: bold;
+      font-size: 20px;
+}
+.lupa{
+      background-color: #4b45e7;
+      font-size: 30px;
+}
+@media(max-width:768px){
+      .body{
+            
+            top: 40px;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+            left: 0;
+            position: absolute;
+            margin: 0%;
+      }
+      .section1{
+            display: flex;
+            flex-direction: column;
+            display: block;
+            margin: 20px;
+            padding: 35px;
+           
+      }
+      .not-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+}
